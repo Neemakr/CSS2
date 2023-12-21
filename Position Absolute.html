@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Positions
+        </title>
+        <style>
+            p{
+                position: relative;
+                left: 50px;
+            }
+            div.relative{
+                position: relative;
+                border: 3px solid green;
+                width: 400px;
+                height: 200px;
+            }
+            div.absolute{
+                border: 3px solid green;
+                position: absolute;
+                width: 200px;
+                height: 100px;
+                top: 80px;
+                right: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            This is a main para
+            <p>
+                This is nested para
+            </p>
+        </p>
+        <p>
+            This is a heading
+        </p>
+        <div class = "relative">
+            This is a div Element
+            <div class = "absolute">
+                This is a nested div element
+            </div>
+        </div>
+    </body>
+</html>
